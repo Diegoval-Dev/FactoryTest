@@ -1,4 +1,5 @@
 package Model;
 
-public class Cuadrado {
+public class Cuadrado implements Figura{
+
 }
