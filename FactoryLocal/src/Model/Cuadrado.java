@@ -6,6 +6,11 @@ public class Cuadrado implements Figura{
     int a;
     int area;
     int perimetro;
+
+    public Cuadrado(int a) {
+        this.a = a;
+    }
+
     @Override
     public String printfigura() {
         return "SOY UN CIRCULO";
