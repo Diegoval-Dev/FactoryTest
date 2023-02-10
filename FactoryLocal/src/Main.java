@@ -6,6 +6,6 @@ public class Main {
         String nombreFigura = fg.generateFigura(figura).printfigura();
         String area = fg.generateFigura(figura).printArea();
         String perimetro = fg.generateFigura(figura).printPerimetro();
-        ui.print("EL NOMBRE DE LA FIGURA ES: " + nombreFigura + " EL AREA ES DE: " + area + " EL PERIMETRO DE: " + perimetro);
+        ui.print("SU NOMBRE DE LA FIGURA ES: " + nombreFigura + " EL AREA ES DE: " + area + " EL PERIMETRO DE: " + perimetro);
     }
 }
