@@ -7,18 +7,19 @@ public class Rectangulo implements Figura{
 
     @Override
     public String printfigura() {
-
         return "Soy un rectangulo";
     }
 
     @Override
     public String printArea() {
-        return null;
+        int areaTriang = largo*ancho;
+        return String.valueOf(areaTriang);
     }
 
     @Override
     public String printPerimetro() {
-        return null;
+        int periRectan = 2* (largo+ancho);
+        return String.valueOf(periRectan);
     }
 
     public int getAncho() {

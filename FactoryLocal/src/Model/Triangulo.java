@@ -2,9 +2,10 @@ package Model;
 
 public class Triangulo implements Figura{
 
-    int cOp;
-    int cAdy;
-    int hipo;
+    int l1;
+    int l2;
+    int base;
+    int altura;
 
 
     @Override
@@ -14,35 +15,45 @@ public class Triangulo implements Figura{
 
     @Override
     public String printArea() {
-        return null;
+        int areaTrian = (base * altura)/2;
+        return String.valueOf(areaTrian);
     }
 
     @Override
     public String printPerimetro() {
-        return null;
+        int periTrian = l1+l2+base;
+        return String.valueOf(periTrian);
     }
 
-    public int getcAdy() {
-        return cAdy;
+    public int getAltura() {
+        return altura;
     }
 
-    public void setcAdy(int cAdy) {
-        this.cAdy = cAdy;
+    public void setAltura(int altura) {
+        this.altura = altura;
     }
 
-    public int getcOp() {
-        return cOp;
+    public int getBase() {
+        return base;
     }
 
-    public void setcOp(int cOp) {
-        this.cOp = cOp;
+    public void setBase(int base) {
+        this.base = base;
     }
 
-    public int getHipo() {
-        return hipo;
+    public int getL1() {
+        return l1;
     }
 
-    public void setHipo(int hipo) {
-        this.hipo = hipo;
+    public void setL1(int l1) {
+        this.l1 = l1;
+    }
+
+    public int getL2() {
+        return l2;
+    }
+
+    public void setL2(int l2) {
+        this.l2 = l2;
     }
 }

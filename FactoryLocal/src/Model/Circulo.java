@@ -12,12 +12,14 @@ public class Circulo implements Figura{
 
     @Override
     public String printArea() {
-        return null;
+        int areaCir = (int) (Math.PI * radio * radio);
+        return String.valueOf(areaCir);
     }
 
     @Override
     public String printPerimetro() {
-        return null;
+        double periCir = Math.PI * 2 * radio;
+        return String.valueOf(periCir);
     }
 
     public int getCircu() {
