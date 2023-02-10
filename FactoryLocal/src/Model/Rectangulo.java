@@ -7,7 +7,8 @@ public class Rectangulo implements Figura{
 
     @Override
     public String printfigura() {
-        return null;
+
+        return "Soy un rectangulo";
     }
 
     @Override

@@ -7,7 +7,7 @@ public class Circulo implements Figura{
 
     @Override
     public String printfigura() {
-        return null;
+        return "Soy un circulo";
     }
 
     @Override
